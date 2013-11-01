@@ -7,7 +7,7 @@ The immutable Point class is n-dimensional.
 import itertools
 import operator
 
-all = ('Point',)
+__all__ = ('Point',)
 
 class Point(tuple):
 
